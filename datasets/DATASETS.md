@@ -21,7 +21,9 @@ Dataset strcture should look like:
 
 ## VG Dataset
 - Download images from [official website](https://visualgenome.org/api/v0/api_home.html)
-- Download our [pre-processed annotations](https://drive.google.com/drive/folders/17TBiVr1F6cIDA_uiG8VNkVd6X8VAGiUB?usp=share_link)
+- Download our pre-processed annotations: 
+  [train.json](https://datarelease.blob.core.windows.net/grit/VG_preprocessed_annotations/train.json) and
+  [test.json](https://datarelease.blob.core.windows.net/grit/VG_preprocessed_annotations/test.json)
 
 Dataset strcture should look like:
   ~~~
