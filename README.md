@@ -3,9 +3,9 @@ GRiT is a general object understanding framework that detects objects and
 describes them with any style of texts it was trained with, e.g., class names, descriptive sentences 
 (including object attributes, actions, counts and many more).
 
-> [**GRiT: A Generative Region-to-text Transformer for Object Understanding**](https://arxiv.org/abs/2212.00280)
-> Jialian Wu, Jianfeng Wang, Zhengyuan Yang, Zhe Gan, Zicheng Liu, Junsong Yuan, Lijuan Wang
-> <sup>1</sup>State University of New York at Buffalo, <sup>2</sup>Microsoft
+> [**GRiT: A Generative Region-to-text Transformer for Object Understanding**](https://arxiv.org/abs/2212.00280) \
+> Jialian Wu, Jianfeng Wang, Zhengyuan Yang, Zhe Gan, Zicheng Liu, Junsong Yuan, Lijuan Wang \
+> <sup>1</sup>State University of New York at Buffalo, <sup>2</sup>Microsoft \
 > *arXiv technical report* ([PDF](https://arxiv.org/pdf/2212.00280.pdf))
 
 <p align="center"> <img src='docs/grit.png' align="center" height="300px"> </p>
