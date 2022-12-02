@@ -3,9 +3,10 @@ GRiT is a general object understanding framework that detects objects and
 describes them with any style of texts it was trained with, e.g., class names, descriptive sentences 
 (including object attributes, actions, counts and many more).
 
-> [**GRiT: A Generative Region-to-text Transformer for Object Understanding**](http://arxiv.org/),               
-> Jialian Wu, Jianfeng Wang, Zhengyuan Yang, Zhe Gan, Zicheng Liu, Junsong Yuan, Lijuan Wang                
-> *arXiv technical report* ([PDF to be updated](http://arxiv.org/))
+> [**GRiT: A Generative Region-to-text Transformer for Object Understanding**](https://arxiv.org/abs/2212.00280)
+> Jialian Wu, Jianfeng Wang, Zhengyuan Yang, Zhe Gan, Zicheng Liu, Junsong Yuan, Lijuan Wang
+> <sup>1</sup>State University of New York at Buffalo, <sup>2</sup>Microsoft
+> *arXiv technical report* ([PDF](https://arxiv.org/pdf/2212.00280.pdf))
 
 <p align="center"> <img src='docs/grit.png' align="center" height="300px"> </p>
  
@@ -23,7 +24,7 @@ wget https://datarelease.blob.core.windows.net/grit/models/grit_b_densecap_objec
 The downloaded GRiT model was jointly trained on dense captioning 
 task and object detection task. With the same trained model, it can 
 output both rich descriptive sentences and short class names by varying
-the flag `--test-task`. Try it as follows! :star_struck::star_struck::star_struck:
+the flag `--test-task`. Play it as follows! :star_struck::star_struck::star_struck:
 
 ### *Output for Dense Captioning (rich descriptive sentences)*
 
@@ -102,9 +103,9 @@ We thank the authors and appreciate their great works!
 
 If you find our work interesting and would like to cite it, please use the following BibTeX entry.
 
-    @inproceedings{wu2021grit,
+    @article{wu2022grit,
       title={GRiT: A Generative Region-to-text Transformer for Object Understanding},
       author={Wu, Jialian and Wang, Jianfeng and Yang, Zhengyuan and Gan, Zhe and Liu, Zicheng and Yuan, Junsong and Wang, Lijuan},
-      booktitle={to be updated},
+      journal={arXiv preprint arXiv:2212.00280},
       year={2022}
     }
