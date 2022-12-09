@@ -1,6 +1,6 @@
 # GRiT: A Generative Region-to-text Transformer for Object Understanding
-GRiT is a general object understanding framework that detects objects and 
-describes them with any style of texts it was trained with, e.g., class names, descriptive sentences 
+GRiT is a general and open-set object understanding framework that localizes objects and
+describes them with any style of free-form texts it was trained with, e.g., class names, descriptive sentences 
 (including object attributes, actions, counts and many more).
 
 > [**GRiT: A Generative Region-to-text Transformer for Object Understanding**](https://arxiv.org/abs/2212.00280) \
