@@ -8,7 +8,7 @@ describes them with any style of free-form texts it was trained with, e.g., clas
 > <sup>1</sup>State University of New York at Buffalo, <sup>2</sup>Microsoft \
 > *arXiv technical report* ([PDF](https://arxiv.org/pdf/2212.00280.pdf))
 
-<p align="center"> <img src='docs/grit.png' align="center" height="300px"> </p>
+<p align="center"> <img src='docs/grit.png' align="center" height="400px"> </p>
  
 ## Installation
 
