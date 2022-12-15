@@ -14,6 +14,13 @@ describes them with any style of free-form texts it was trained with, e.g., clas
 
 Please follow [Installation instructions](docs/INSTALL.md).
 
+## GRiT with ChatGPT
+
+The [TWC team](https://github.com/taskswithcode) recently tried to feed the GRiT's dense captioning outputs 
+into ChatGPT to describe the scene as shown [here](https://twitter.com/imisra_/status/1602817378290905088?s=20&t=ROmjQqRIkbmFsBK69USRew). 
+The result looks amazing which I paste it below:
+<p align="center"> <img src='docs/chatgpt_grit.jpg' align="center"> </p>
+
 ## Object Understanding Demo - One Model Two tasks
 
 [Download the GRiT model](https://datarelease.blob.core.windows.net/grit/models/grit_b_densecap_objectdet.pth) or use the following commend to download:
@@ -39,6 +46,8 @@ python demo.py --test-task ObjectDet --config-file configs/GRiT_B_DenseCap_Objec
 ~~~
 Output images will be saved under the `visualization` folder, which looks like:
 <p align="center"> <img src='docs/demo.png' align="center"> </p>
+
+You can also try the Colab demo provided by the [TWC team](https://github.com/taskswithcode): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/GriT/blob/master/TWCGRiT.ipynb)
 
 ## Benchmark Inference and Evaluation
 Please follow [dataset preparation instructions](datasets/DATASETS.md) to download datasets.
