@@ -14,13 +14,6 @@ describes them with any style of free-form texts it was trained with, e.g., clas
 
 Please follow [Installation instructions](docs/INSTALL.md).
 
-## GRiT with ChatGPT
-
-The [TWC team](https://github.com/taskswithcode) recently tried to feed the GRiT's dense captioning outputs 
-into ChatGPT to describe the scene as shown [here](https://twitter.com/imisra_/status/1602817378290905088?s=20&t=ROmjQqRIkbmFsBK69USRew). 
-The result looks amazing which I paste it below:
-<p align="center"> <img src='docs/chatgpt_grit.jpg' align="center"> </p>
-
 ## Object Understanding Demo - One Model Two tasks
 
 [Download the GRiT model](https://datarelease.blob.core.windows.net/grit/models/grit_b_densecap_objectdet.pth) or use the following commend to download:
@@ -48,6 +41,17 @@ Output images will be saved under the `visualization` folder, which looks like:
 <p align="center"> <img src='docs/demo.png' align="center"> </p>
 
 You can also try the Colab demo provided by the [TWC team](https://github.com/taskswithcode): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/GriT/blob/master/TWCGRiT.ipynb)
+
+## ChatGPT with GRiT
+We fed GRiT's dense captioning outputs (box location and description) into ChatGPT to have it
+describe the scene. It turns out we can get a very good scene description, and we can also require
+ChatGPT to describe the object relative positions. One example is shown below:
+
+**GRiT's dense captioning outputs**
+<p align="center"> <img src='docs/densecap.jpg' align="center"> </p>
+
+**We request ChatGPT to describe the scene based GRiT's dense captioning outputs**
+<p align="center"> <img src='docs/chatgpt.png' align="center"> </p>
 
 ## Benchmark Inference and Evaluation
 Please follow [dataset preparation instructions](datasets/DATASETS.md) to download datasets.
