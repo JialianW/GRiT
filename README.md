@@ -36,15 +36,26 @@ the flag `--test-task`. Play it as follows! :star_struck:
 
 ### *Output for Dense Captioning (rich descriptive sentences)*
 
-~~~
-python demo.py --test-task DenseCap --config-file configs/GRiT_B_DenseCap_ObjectDet.yaml  --input demo_images --output visualization --opts MODEL.WEIGHTS models/grit_b_densecap_objectdet.pth
-~~~
+```bash
+python demo.py \
+--test-task DenseCap \
+--config-file configs/GRiT_B_DenseCap_ObjectDet.yaml  \
+--input demo_images \
+--output visualization/dense_caption \
+--opts MODEL.WEIGHTS models/grit_b_densecap_objectdet.pth
+```
 
 ### *Output for Object Detection (short class names)*
 
-~~~
-python demo.py --test-task ObjectDet --config-file configs/GRiT_B_DenseCap_ObjectDet.yaml  --input demo_images --output visualization --opts MODEL.WEIGHTS models/grit_b_densecap_objectdet.pth
-~~~
+```bash
+python demo.py \
+--test-task ObjectDet \
+--config-file configs/GRiT_B_DenseCap_ObjectDet.yaml  \
+--input demo_images \
+--output visualization/object_detection \
+--opts MODEL.WEIGHTS models/grit_b_densecap_objectdet.pth
+```
+
 Output images will be saved under the `visualization` folder, which looks like:
 <p align="center"> <img src='docs/demo.png' align="center"> </p>
 
